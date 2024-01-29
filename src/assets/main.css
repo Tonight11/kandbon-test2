@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  background-color: #1B1B1E;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+#app {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 50px;
+  width: 100%;
+  min-height: 100vh;
+}
